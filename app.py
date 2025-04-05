@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p> Hello world from cc backend! version 2<p>"
+    return "<p> Hello world from cc backend! version 2.1<p>"
 
 @app.route('/data', methods=['POST'])
 def get_data():
